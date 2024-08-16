@@ -614,3 +614,4 @@ Results:
 Now, if you want to simulate the results 10000 times and look at the average possibility you will find the more than almost 90% times you will get the result closer to 9 % and Bayesians wins because of they draw the probability using evidence not the frequent trails. 
 
 
+
