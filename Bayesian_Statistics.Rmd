@@ -54,11 +54,7 @@ Nepal
 
 \tableofcontents
 
-\newpage
-
 \listoftables
-
-\newpage
 
 \listoffigures
 
@@ -613,5 +609,16 @@ Results:
 
 Now, if you want to simulate the results 10000 times and look at the average possibility you will find the more than almost 90% times you will get the result closer to 9 % and Bayesians wins because of they draw the probability using evidence not the frequent trails. 
 
+# Bayesian Inference
 
+Statistical inference involves the process of making conclusions about a population based on a sample of data. Since it is often impractical or impossible to gather data from an entire population, statistical inference allows us to draw meaningful conclusions by analyzing a representative sample. This is crucial in many fields, including medicine, economics, and social sciences, where direct measurement of every individual in a population is infeasible.
 
+The essence of statistical inference is to estimate the unobserved quantities, known as estimands, based on the observed data. These estimands could be potentially observable quantities, such as predicting future outcomes, or parameters that are not directly observable, such as the true effect of a treatment in a clinical trial. For example, in a clinical trial comparing a new cancer drug to standard treatment, researchers cannot expose every patient to both treatments, nor can they test the drug on the entire population. Instead, they rely on statistical inference to estimate survival probabilities and draw conclusions about the drug's effectiveness from a sample of patients.
+
+Statistical inference often involves hypothesis testing or estimating population parameters, such as means or proportions, based on sample statistics. It employs probability theory to quantify the uncertainty associated with these estimates, enabling researchers to make informed decisions while acknowledging the potential for error.
+
+Bayesian statistical inference is a subset of statistical inference that incorporates prior knowledge or beliefs into the analysis through the use of Bayes' theorem. Unlike traditional (frequentist) inference, which relies solely on the data at hand, Bayesian inference combines prior distributions with the likelihood of the observed data to produce a posterior distribution—a probability distribution that represents the updated beliefs about the parameter after considering the data.
+
+In a Bayesian framework, the prior distribution reflects what is known or believed about the parameter before any new data is observed. The likelihood function represents the probability of the observed data given different values of the parameter. By applying Bayes' theorem, the prior and the likelihood are combined to form the posterior distribution, which serves as the basis for making inferences about the parameter.
+
+This approach is particularly useful in situations where prior information is available or when making inferences about complex models with multiple parameters. For instance, in the clinical trial example, if previous studies suggest certain probabilities of survival under standard treatment, this information can be used as a prior distribution when evaluating the new drug. The Bayesian approach allows for a more flexible and comprehensive analysis, as it can continuously update the estimates as new data becomes available, making it a powerful tool for decision-making in uncertain environments.
